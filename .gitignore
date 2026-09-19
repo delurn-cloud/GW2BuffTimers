@@ -1,0 +1,19 @@
+# Local-only restart handoff (not for version control)
+.dev/RESTART_HANDOFF.md
+
+# Visual Studio solution folder (user/machine specific)
+.vs/
+
+# Build output directories (any depth)
+bin/
+obj/
+
+# Visual Studio per-user files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.csproj.user
+
+# Built installer at repo root
+/GW2BuffTimers-setup.exe
