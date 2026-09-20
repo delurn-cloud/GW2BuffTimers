@@ -1,7 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\GW2TimerCore\GW2TimerCore.csproj" />
+    <ProjectReference Include="GW2TimerCore\GW2TimerCore.csproj" />
+    <Compile Remove="GW2TimerCore\**" />
   </ItemGroup>
 
   <PropertyGroup>
